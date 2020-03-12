@@ -7,6 +7,7 @@ let menuItems = [
   'Tech Trends',
   'Music',
   'Log Out'
+
 ];
 
 /* 
@@ -49,9 +50,9 @@ menuContainer.classList.add('menu');
 
 //        loop         //
 
-menuItems.forEach(function(item) {
-  let li = document.createElement("li");
+menuItems.forEach( (item) => {
   
+  let li = document.createElement("li");
   uList.appendChild(li);
   li.textContent = item;
 });

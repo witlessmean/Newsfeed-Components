@@ -199,3 +199,7 @@ const articles = document.querySelector('div.articles');
 data.map(items => {
   articles.appendChild(creator(items.title, items.date, items.firstParagraph, items.secondParagraph, items.thirdParagraph))
 });
+
+//item is the current element being processed in the array. 
+
+//we are mapping through data until data is over. which is why we are able to simply add new data, and that data will be mapped and added. So the loop is looping through our data and adding it until we have no more data to loop through. so it will be looping through data.length. 
